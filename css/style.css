@@ -119,8 +119,11 @@ img {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus,
-.backlight {
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.link.active {
   color: var(--accent-color);
 }
 
@@ -386,8 +389,8 @@ img {
 .project {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
   margin-bottom: -30px;
-  margin-top: -30px;
 }
 
 .project .item {
